@@ -1,0 +1,53 @@
+
+.anticon.anticon-ellipsis > svg{
+    color: white;
+    font-size: 1.7em;
+}
+
+.ant-btn-primary[disabled], .ant-btn-primary[disabled]:hover, .ant-btn-primary[disabled]:focus, .ant-btn-primary[disabled]:active{
+    color: #fff;
+    background-color: #ccc;
+}
+
+/* 表格的字体 */
+.ant-form-item-label > label{
+    font-weight: bold;
+}
+
+.ant-layout-footer{
+    padding: 0;
+}
+
+.ant-layout{
+    overflow: auto!important;
+}
+
+/* 改变滑动条公共样式类 */
+.scroll-bule::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+.scroll-bule::-webkit-scrollbar-thumb{
+    background: rgba(79,157,222);
+    border-radius: 5px;
+}
+
+.scroll-bule::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+/* 改变滑动条公共样式类 */
+*::-webkit-scrollbar{
+    width: 7px!important;
+    height: 7px!important;
+}
+
+*::-webkit-scrollbar-thumb{
+    background: rgba(79,157,222);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-track{
+    background: #fff;
+}

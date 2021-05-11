@@ -1,0 +1,25 @@
+/* win 1920 */
+@media screen and (max-width: 2100px) and (min-width: 1700px) {
+    .raceshop-row{
+        height: 7.3vh!important;
+    }
+}
+
+
+/* mac 1680 */
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+    .raceshop-row{
+        height: 6.6vh!important;
+    }
+}
+
+/* 联想 1366 */
+@media screen and (max-width: 1500px) and (min-width: 200px) {
+    .raceshop-row{
+        height: .7vh!important;
+        font-size: 2px!important;
+    }
+    .ant-table-pagination.ant-pagination {
+        margin: 5px 0;
+    }
+}

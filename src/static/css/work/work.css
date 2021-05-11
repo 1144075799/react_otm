@@ -1,0 +1,21 @@
+/* win 1920 */
+@media screen and (max-width: 2100px) and (min-width: 1700px) {
+    .work-row{
+        height: 7.5vh!important;
+    }
+}
+
+
+/* mac 1680 */
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+    .work-row{
+        height: 7.5vh!important;
+    }
+}
+
+/* 联想 1366 */
+@media screen and (max-width: 1500px) and (min-width: 200px) {
+    .work-row{
+        height: 1vh!important;
+    }
+}

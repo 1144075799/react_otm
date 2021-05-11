@@ -1,0 +1,21 @@
+img:hover{
+    transform: scale(1.1);
+}
+
+img{
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+a{
+    color: #686666;
+}
+
+[data-theme='compact'] .site-collapse-custom-collapse .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  background: #f7f7f7;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  border: 0px;
+  overflow: hidden;
+}

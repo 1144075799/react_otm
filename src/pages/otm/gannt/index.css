@@ -1,0 +1,23 @@
+.toolbox {
+  padding: 10px;
+}
+
+.gstc__chart-calendar-date .gstc__chart-calendar-date--minute .gstc__chart-calendar-date--main-date .gstc__chart-calendar-date--level-1{
+  background-color: black;
+}
+
+
+#shareLeft{
+  position: fixed;
+  border: 1px solid grey;
+  background-color: white;
+  top: 0px;
+  width: 800px;
+  height: 100%;
+  right: 0px;
+}
+
+/* 表格的字体 */
+.ant-form-item-label > label{
+  font-weight: bold;
+}

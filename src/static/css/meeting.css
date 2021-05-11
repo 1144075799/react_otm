@@ -1,0 +1,90 @@
+.meeting {
+    font-family: 'Microsoft YaHei';
+}
+
+.meeting-table {
+    padding: 20px;
+    display: block;
+    background: #ffffff;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    border-radius: 10px;
+}
+
+.table{
+    box-shadow: 2px 4px 8px  rgba(212, 212, 212, 0.9);
+}
+
+.meeting-table-cell{
+    /* background:rgb(255, 255, 255); */
+    transition: all 0.5s;
+}
+
+.meeting-table-cell:hover{
+    background-image: linear-gradient(to top, #6f86d6 0%, #6f86d6 100%);
+    transition: all 0.5s;
+}
+
+.has-click{
+    background-image: linear-gradient(to top, #6f86d6 0%, #6f86d6 100%);
+    transition: all 0.5s;
+}
+
+.oa-meeting-index{
+    position: relative;
+    height: 90%;
+}
+
+.tip-wapper{
+    background: #ffffff;
+    display: block;
+    width: 50vw;
+    padding: 1rem;
+    /* border: 1px solid #6f86d6; */
+    position: absolute;
+    z-index: 10000;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(24, 144, 255);
+    text-align: center;
+    border-radius: 1rem;
+    transition: all 1s;
+    box-shadow: 0 3px 6px -4px rgba(0,0,0,.12), 0 6px 16px 0 rgba(0,0,0,.08), 0 9px 28px 8px rgba(0,0,0,.05);
+}
+
+@media screen and (max-width: 650px) and (min-width: 200px) {
+    .tip-wapper{
+        font-size: .8rem;
+    }
+}
+
+
+
+/* win 1920 */
+@media screen and (max-width: 2100px) and (min-width: 1700px) {
+    .row-height{
+        height: 8vh!important;
+    }
+}
+
+
+/* mac 1680 */
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+    .row-height{
+        height: 7.5vh!important;
+    }
+}
+
+/* 联想 1366 */
+@media screen and (max-width: 1500px) and (min-width: 200px) {
+    .row-height{
+        height: 1vh!important;
+    }
+}
+

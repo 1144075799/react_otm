@@ -1,0 +1,155 @@
+/* win 1920 */
+@media screen and (max-width: 2100px) and (min-width: 1700px) {
+    .zoncai-row{
+        height: 4.6vh!important;
+    }
+}
+
+
+/* mac 1680 */
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+    .zoncai-row{
+        height: 4.3vh!important;
+    }
+}
+
+
+.over-view-carousel{
+    display: grid!important;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    height: 200px!important;
+    margin-top: 25px!important;
+}
+
+.over-view-carousel-unit{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-area{
+    justify-self: right;
+}
+
+.left-icon{
+    font-size: 4rem;
+    margin:auto 3px;
+}
+
+.right-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filed-name{
+    font-size: .9rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 3px;
+}
+
+.filed-name-value{
+    margin-left: 3px!important;
+    font-size: 0.8rem!important;
+}
+.mobile-icon-wapper{
+    display: flex;
+    align-items: center;
+}
+
+.mobile-icon{
+    font-size: 1.2rem;
+    color: #fff!important;
+    margin-right: .1rem;
+}
+
+.filed-icon-value{
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+.rank-name{
+    position: relative;
+}
+
+.rank-name::after{
+    position: absolute;
+    content: '名';
+    top: 0;
+    left: 105%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 2.5rem;
+}
+
+.report-father-index{
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.over-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.over-view-carousel-title{
+    position: absolute;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+/* 联想 1366 */
+@media screen and (max-width: 1500px) and (min-width: 200px) {
+    .over-view-carousel{
+        margin-top: 1.1rem!important;
+    }
+    
+    .left-icon{
+        font-size: 3rem;
+        margin:auto 3px;
+    }
+
+    .filed-name{
+        font-size: .7rem;
+        font-weight: 600;
+        color: #fff;
+        margin-left: 3px;
+    }
+
+    .filed-name-value{
+        margin-left: 3px!important;
+        font-size: 0.5rem!important;
+        line-height: 1.5rem;
+    }
+
+    .rank-name::after{
+        position: absolute;
+        content: '名';
+        top: 0;
+        left: 105%;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.6rem;
+    }
+    .mobile-icon{
+        font-size: 1.1rem;
+    }
+
+    #report{
+        height: 56vh!important;
+    }
+}
