@@ -911,6 +911,15 @@ function App() {
     if (element) initializeGSTC(element);
   }, []);
 
+  useEffect(() => {
+    // 初始化的时候
+    let obj = document.getElementById('gstc')
+    obj.addEventListener('gstc-loaded', () => {
+      // gstc.api.scrollToTime(gstc.api.time.date().valueOf()); // 默认当前日期
+      gstc.api.scrollToTime(GSTC.api.date('2021-05-14').valueOf())  // 指定日期
+    });
+  }, [document.getElementById('gstc')])
+
 
 
 
@@ -921,7 +930,7 @@ function App() {
       </div>
       <div style={{ display: 'flex' }}>
         <div style={{ width: '80vw', height: 800 }}>
-          <div style={{ width: '100%', height: 800 }} className="gstc-wrapper" ref={callback}></div>
+          <div style={{ width: '100%', height: 800 }} className="gstc-wrapper" ref={callback} id="gstc"></div>
         </div>
       </div>
 
